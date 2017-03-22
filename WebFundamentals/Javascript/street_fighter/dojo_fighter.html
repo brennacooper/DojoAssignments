@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dojo Fighter</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+
+
+	$(document).ready(function(){
+
+		$("#select-player").hide();
+		$(".arenapic").hide();
+
+		$(".arena").hover(function(){
+			var imgname = $(this).text();
+			console.log(imgname);
+			$("body").css ("background-image", "url( " + imgname + ".jpg)");
+		}, function () {
+			$('body').css('background-image', 'none');
+		});
+
+		$('.arena').click(function(){
+			var imgname = $(this).text();
+			console.log(imgname);
+			$("body").css ("background-image", "url( " + imgname + ".jpg)");
+			$('#arenabody').remove();
+			$("#select-player").show();
+		});
+
+		$(function() {
+   			$("#players-1").change(function() {
+       		var imgname = $(this).val();
+        	console.log(imgname);
+            $("#charpic1").attr('src', imgname + '.png');
+
+   		});
+
+		$(function() {
+   			$("#players-2").change(function() {
+       		var imgname = $(this).val();
+        	console.log(imgname);
+            $("#charpic2").attr('src', imgname + '.png');
+
+   		});
+
+
+   		});
+
+ 	 });
+
+	});
+
+
+
+	</script>
+</head>
+<body>
+
+	<div id="wrapper">
+
+	<div id="arenabody">
+		<h1>Select Arena</h1>
+		<button class="arena" id="beach">Beach</button>
+		<button class="arena" id="dojo">Dojo</button>
+		<button class="arena" id="earth">Earth</button>
+		<button class="arena" id="forest">Forest</button>
+		<button class="arena" id="matrix">Matrix</button>
+		<button class="arena" id="snow">Snow</button>
+	</div>
+
+	<div id="select-player">
+    <h1>Select Players</h1>
+     
+     <select id="players-1">
+       <option class="character">Donny</option>
+       <option class="character">Leo</option>
+       <option class="character">Mikey</option>
+       <option class="character">Raphael</option>
+     </select>
+     
+     <select id="players-2">
+       <option class="character">Donny</option>
+       <option class="character">Leo</option>
+       <option class="character">Mikey</option>
+       <option class="character">Raphael</option>
+     </select>
+
+   </div>
+
+   <img id="charpic1">
+   <img id="charpic2">
+
+  
+
+   </div>
+
+
+</body>
+</html>

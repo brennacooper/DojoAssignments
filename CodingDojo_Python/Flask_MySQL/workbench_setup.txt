@@ -1,0 +1,6 @@
+SELECT * FROM users;
+SELECT first_name from users;
+select first_name, follower_id
+from users
+left join follows
+on users.id = follows.followed_id;

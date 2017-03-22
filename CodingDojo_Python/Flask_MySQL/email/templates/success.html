@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Success</title>
+</head>
+<body>
+	<p>The email address you entered ({{email}} ) is a VALID email address! Thank you!</p>
+	<br>
+	<H1><u> Email Addresses Entered:</u></H1>
+	
+	
+	{% for user in all_users %}
+	<p>{{user['email']}} 
+	{{user['date']}}</p>
+	{% endfor %} 
+	
+	
+	
+
+</body>
+</html>

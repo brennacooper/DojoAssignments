@@ -1,0 +1,22 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.text_class1{
+	color: blue;
+}
+
+.text_class2{
+	color: red;
+}
+
+#catphoto{
+	width: 100px;
+	height: 75px;
+}
+
+#catphoto img{
+	width: 100px;
+	height: 75px;
+}

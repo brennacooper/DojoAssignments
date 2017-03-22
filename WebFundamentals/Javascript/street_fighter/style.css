@@ -1,0 +1,34 @@
+**{
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper{
+	width: 790px;
+	height: 600px;
+	background-color: #D0D3D4  
+
+}
+#arenabody{
+	width: 350px;
+	height: 250px;
+	background-color: #F7F9F9;
+	padding: 5px;
+	text-align: center;
+	position: relative; 
+	left: 200px;
+	top: 100px;
+	color: #F1C40F;
+}
+
+.arena{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	margin: 25px;
+}
+
+
+}
+
+/*#select-player*/

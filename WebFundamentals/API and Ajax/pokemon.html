@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Waht's that Pokemon?</title>
+	<meta charset="utf-8">	
+	 <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script> 
+	<script type="text/javascript">
+	$(document).ready(function(){
+		for (var i = 1; i<=151; i++){
+		console.log(i);
+		$("#images").append('<img id = "'+i+'" src="http://pokeapi.co/media/img/' + i +'.png">')
+	}
+
+
+	});
+
+
+
+
+
+	</script>
+</head>
+<body>
+<div id="images"></div>
+
+</body>
+</html>

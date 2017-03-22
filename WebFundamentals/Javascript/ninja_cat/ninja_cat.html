@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja to Cat</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+		$("#pic0").click(function () {
+    	if ($("#pic0").attr("src") == "cat0.png") {
+        $("#pic0").attr("src", "ninja0.png");
+    	} else {
+        $("#pic0").attr("src", "cat0.png");
+    	}
+		});
+		
+		$("#pic1").click(function () {
+    	if ($("#pic1").attr("src") == "cat1.png") {
+        $("#pic1").attr("src", "ninja1.png");
+    	} else {
+        $("#pic1").attr("src", "cat1.png");
+    	}
+		});
+
+		$("#pic2").click(function () {
+    	if ($("#pic2").attr("src") == "cat2.png") {
+        $("#pic2").attr("src", "ninja2.png");
+    	} else {
+        $("#pic2").attr("src", "cat2.png");
+    	}
+		});
+
+		$("#pic3").click(function () {
+    	if ($("#pic3").attr("src") == "cat3.png") {
+        $("#pic3").attr("src", "ninja3.png");
+    	} else {
+        $("#pic3").attr("src", "cat3.png");
+    	}
+		});
+
+		$("#pic4").click(function () {
+    	if ($("#pic4").attr("src") == "cat4.png") {
+        $("#pic4").attr("src", "ninja4.png");
+    	} else {
+        $("#pic4").attr("src", "cat4.png");
+    	}
+		});
+
+		});
+
+
+
+
+
+
+
+	</script>
+		
+	
+</head>
+<body>
+
+<div id="cat">
+	<img id="pic0" src="cat0.png" alt-src="ninja0.png">
+	<img id="pic1" src="cat1.png" alt-scr="ninja1.png">
+	<img id="pic2" src="cat2.png" alt-scr="ninja2.png">
+	<img id="pic3" src="cat3.png" alt-scr="ninja3.png">
+	<img id="pic4" src="cat4.png" alt-scr="ninja4.png">
+</div>
+
+
+
+</body>
+</html>

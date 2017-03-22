@@ -1,0 +1,279 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper {
+	width: 970px;F
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #884dff;
+	background-image: radial-gradient(#ccb3ff, #bb99ff, #884dff);
+}
+
+#header {
+	width: 970px;
+	height: 50px;
+	background-color: #e6e6e6;
+	background-image: linear-gradient(#bfbfbf, #e6e6e6);
+	display: block;
+	color: purple;
+}
+
+#name{
+	width: 450px;
+	display: inline-block;
+	padding-left: 20px;
+	text-align: left;
+}
+
+#bio{
+	width: 450px;
+	display: inline-block;
+	text-align: right;
+}
+
+#body{
+	width: 960px;
+	height: 900px;
+	padding: 10px;
+}
+
+#pic {
+	width: 400px;
+	height: 300px;
+	border: 5px solid #bfbfbf;
+	display: inline-block;
+	margin: 10px;
+}
+
+#pic img {
+	width: 400px;
+	height: 300px
+}
+ 
+#about{
+	width: 500px;
+	height: 300px;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+ }
+
+#abt_container{
+	width: 490px;
+	height: 75px;
+	padding: 10px 0px 0px 10px;
+	display: block;
+	color: white;
+	background-color: gray;
+	background-image: linear-gradient(to right, #bfbfbf, #8c8c8c);
+	vertical-align: top;
+}
+
+#about_me{
+	width: 480px;
+	height: 205px;
+	padding: 10px;
+	display: block;
+	background-color: #ece4eb;
+	vertical-align: center;
+	color: purple;
+}
+
+.container_1{
+	width: 285px;
+	height: 515px;
+	margin: 15px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ece4eb;
+}
+
+.container_2{
+	width: 285px;
+	height: 20px;
+	padding: 10px 0px 10px 0px;
+	display: block;
+	vertical-align: top;
+	color: white;
+	text-indent: 10px;
+	background-color: gray;
+	background-image: linear-gradient(to right, #bfbfbf, #8c8c8c);
+}
+
+.container_3{
+	width: 285px;
+	height: 150px;
+	display: block;
+	vertical-align: top;	
+}
+
+.container_3 img{
+	width: 285px;
+	height: 150px;
+}
+
+.container_4{
+	width: 275px;
+	height: 100px;
+	padding: 5px;
+	display: block;
+	vertical-align: top;
+	color: purple;
+}
+
+.container_5{
+	width: 280px;
+	height: 15px;
+	padding: 5px 0px 5px 5px;
+	display: block;
+	vertical-align: top;
+	color: white;
+	text-indent: 10px;
+	background-color: gray;
+	background-image: linear-gradient(to right, #bfbfbf, #8c8c8c);
+}
+.container_6{
+	width: 275px;
+	height: 100px;
+	padding: 5px 0px 2px 10px;
+	display: block;
+	vertical-align: top;
+		
+}
+
+.container_6 img{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 2px;
+}
+
+.container_7{
+	width: 285px;
+	height: 20px;
+	padding: 5px 0px;
+	display: block;
+	vertical-align: center;
+}
+
+#la_mode_link{
+	width: 60px;
+	height: 20px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	vertical-align: top;
+	text-align: center;
+	color: #f8fdea;
+	background-color: #407d61;
+
+}
+#family_contacts_link{
+	width: 120px;
+	height: 20px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	vertical-align: top;
+	text-align: center;
+	color: #f8fdea;
+	background-color: #407d61;
+}
+
+#fiveeleven_link{
+	width: 80px;
+	height: 20px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	vertical-align: top;
+	text-align: center;
+	color: #f8fdea;
+	background-color: #407d61;
+}
+
+#footer{
+	width: 970px;
+	height: 100px;
+	background-color: #e6e6e6;
+	background-image: linear-gradient(#e6e6e6, #bfbfbf);
+	display: block;
+
+}
+
+.footer_container{
+	width: 970px;
+	height: 50px;
+	display: block;
+	color: purple;
+	
+}
+
+
+#footer_container_1{
+	width: 445px;
+	height: 25px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	border-right: 2px solid purple;	
+}
+
+#footer_container_2{
+	width: 400px;
+	height: 25px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	color: purple;
+	
+}
+
+.social_media_container_1{
+	width:225px;
+	height: 25px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+#social_media_container_2{
+	width:450px;
+	height: 25px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.social_media_icon{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.social_media_icon img{
+	width: 25px;
+	height: 25px;
+}
+
+
+.social_media_contact{
+	width: 30px
+	height: 10px;
+	padding: 5px;
+	display: inline-block;
+	color: purple;
+}

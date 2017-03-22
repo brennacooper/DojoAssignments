@@ -1,0 +1,14 @@
+cd desktop
+cd DojoAssignments
+copy NUL index.html
+copy NUL styles.css
+git init
+git add index.html
+git add styles.css
+got commit -m "added index.html and styles.css"
+git remote add origin https://github.com/brennacooper/DojoAssignments.git
+git push -u origin master
+git status
+git add readme.md
+git commit -m "added readme.md"
+git push -u origin master

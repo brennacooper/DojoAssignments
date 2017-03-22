@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Card</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+
+
+
+	$(document).ready(function(){
+		
+		var adduser = {
+			firstname = $("#first_name").val();
+			lastname = $("#last_name").val();
+			description = $("#description").val();
+		}
+
+			$(".add_user").click(function(){
+			var firstname = $("#first_name").val();
+			var lastname = $("#last_name").val();
+			var description = $("#description").val();
+			var adduser =  firstname + lastname + description;
+			$(".users").append(h2);
+
+
+
+			});
+
+		});
+
+	});
+
+
+
+</script>
+</head>
+<body>
+
+	<div class="add">
+	<form>
+	First Name: <input class="input" type="text" id="first_name">
+	<br>
+	Last Name: <input class="input" type="text" id="last_name">
+	<br>
+	Description <textarea class="input" type="text" id="description"></textarea>
+	<br><br>
+	<input class="input" type="button" class="add_user" value="Add User">
+	</form>
+	</div>
+
+	<div class="users">
+		<h2>Contact Cards</h2>
+	</div>
+
+	<div class="individual_info"></div>
+		
+
+	
+
+</body>
+</html>
+	

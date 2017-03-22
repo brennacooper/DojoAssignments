@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>jQuery</title>
+		<style>
+		.text_class1{
+			color: blue;
+		}
+
+		.text_class2{
+			color: red;
+		}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+
+
+			$("#button1").click(function(){
+				$("#some_text").hide();
+
+			
+			});
+
+			$("#button2").click(function(){
+				$("#some_text").show();
+		
+			});
+		
+			$("#button3").click(function(){
+				$("#more_text1").toggle();
+			});
+			
+			$("#button4").click(function(){
+				$("#more_text2").slideDown();
+			});
+
+			$("#button4").click(function(){
+				$("#more_text2").slideUp();
+			});
+
+			$("#button4").click(function(){
+				$("#more_text2").slideToggle();
+			});
+
+			
+
+			$("#button5").click(function(){
+				$("#more_text3").fadeIn();
+			});
+
+			$("#button5").click(function(){
+				$("#more_text3").fadeOut();
+			});
+
+			$("#button5").click(function(){
+				$("coffee1").addClass(".text_class2");
+			});
+			
+
+// .addClass
+// .before
+// .after
+// .append
+// .html
+// .attr
+// .val
+// .text
+// .data
+
+
+});
+
+	</script>
+
+</head>
+<body>
+
+	<button id="button1">Button 1</button>
+	
+
+	<button id="button2">Button 2</button>
+
+	<p id="some_text">This is some text.</p>
+
+	<button id="button3">Button 3</button>
+	<p id="more_text1">This is more text.</p>
+	
+	<button id="button4">Button 4</button>
+	<p id="more_text2">Yet more text.</p>
+
+	<button id="button5">Button 5</button>
+	<p id="more_text3">Yet more text, again.</p>
+
+	<p id="coffee1">Coffee is good.</p>
+	<p id = "coffee2">I love coffee!</p>
+	
+
+
+</body>
+</html>

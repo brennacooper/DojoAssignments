@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Great Numbers Game</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<H1> Welcome to the Great Number Game!</H1>
+<br>
+{{session['num']}}
+<p>I am thinking of a number between 1 and 100</p>
+<p>Take a Guess!</p>
+{% if not session['success'] %}
+
+<form method="POST" action='/guess'>
+<input type="text" name="guess">
+<input type="submit" name="submit">
+</form>
+{% endif %}
+
+{% if session['fail'] %}
+	{{session['fail']}}
+{% endif %}
+{% if session['success'] %}
+	{{session['success']}}
+<form action="/reset" method="post">
+	<input type="submit" name="Play Again!">
+	
+</form>
+{% endif %}
+
+</body>
+</html>

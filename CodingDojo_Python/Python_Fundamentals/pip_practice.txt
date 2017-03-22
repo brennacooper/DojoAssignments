@@ -1,0 +1,17 @@
+pip install Django - installs Django
+
+pip list - lists all installed packeges and their versions
+
+pip freeze - output installed packages in requiremetn format (standard requirement format that may be used later with pip-r to install requirements.) 
+
+pip list- includes all editables while pip freeze does not
+
+pip freeze > requirements.txt - list of all packages in the current environments and their versions.
+
+
+pip show django - shows information about the installed package
+
+pip unstall django - uninstalls django. Asks if you want to proceed.
+
+pip search flask - lists  packages containing the name "Flask" and
+a description of them.

@@ -1,0 +1,19 @@
+cd Desktop
+md test
+cd test
+copy NUL index.html
+copy NUL styles.css
+copy aboutMe.txt
+git init
+git add index.html
+git add styles.css
+git add aboutMe.txt
+got commit -m "added index.html, styles.css, aboutMe.txt"
+git add aboutMe.txt
+git commit -m "updated aboutMe"
+git add aboutMe.txt
+git commit -m "uadded favorite movie to aboutMe"
+git log
+git revert 729fa95
+git commit -m "updated favorite movie"
+

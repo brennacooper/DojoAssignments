@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Time Display</title>
+</head>
+<body>
+<p>The current time is</p>
+
+	{% if datetime %}
+		{% for dt in datetime %}
+			<p>{{dt.date}}</p>
+			<p>{{dt.time}}</p>
+		{% endfor %}
+	{% endif %}
+</body>
+</html>

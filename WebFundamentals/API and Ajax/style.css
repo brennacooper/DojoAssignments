@@ -1,0 +1,23 @@
+
+#wrapper{
+	width: 1000px;px;
+	border: 2px solid blue;
+}
+
+#pokemon{
+	display: inline-block;
+	width: 750px;
+	vertical-align: top;
+	border: 2px solid black;
+}
+
+#pokedex{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 500px;
+	border: 10px solid red;
+
+
+
+}

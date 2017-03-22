@@ -1,0 +1,54 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper{
+	width: 970px;F
+	height: 1000px;
+	margin: 0 auto;
+	background-color: white
+
+}
+
+#header{
+	width: 970 px;
+	height: auto;
+
+
+}
+
+#title{
+	width: 970px;
+	height: 50px;
+	display: block;
+	vertical-align: top;
+
+}
+
+#globe{
+	width: 50px;
+	height: 60px;
+	background-image: url(globe.png);
+	position: absolute;
+	vertical-align: top;
+
+}
+#web{
+	width: 970px;
+	height: 50px;
+	display: block;
+	vertical-align: top;
+	background-color:#25669e;
+	background-image:  radial-gradient(, #6ba0cd, #25669e);
+	color: white;
+}
+
+
+
+#navigation{
+
+}
+.dk_blue span{
+
+}
